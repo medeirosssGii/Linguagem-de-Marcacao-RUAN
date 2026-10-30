@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore | Entrar</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <img src="img/logoo.png" alt="Logotipo da Loja TechStore">
+        <h1>Acesse sua Conta</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="quemSomos.html">Quem Somos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Portal do Cliente</h2>
+            <p>Entre com seu e-mail e senha para acessar seus pedidos, rastrear entregas e gerenciar sua conta na TechStore.</p>
+            
+            <form action="login.php" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="email_login">E-mail:</label>
+                    <input type="email" id="email_login" name="email_login" required>
+                </p>
+                <p>
+                    <label for="senha_login">Senha:</label>
+                    <input type="password" id="senha_login" name="senha_login" required>
+                </p>
+                <p>
+                    <button type="submit">Entrar</button>
+                </p>
+                <p>Ainda não possui conta? <a href="cadastro.html">Cadastre-se aqui</a>.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechStore. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
